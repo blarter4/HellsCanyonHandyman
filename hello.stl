@@ -1,0 +1,3 @@
+start <- event {
+    display("Welcome to NebulaX")
+}
