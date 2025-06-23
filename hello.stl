@@ -1,3 +1,4 @@
 start <- event {
     display("Welcome to NebulaX")
+    calc(1+2)
 }

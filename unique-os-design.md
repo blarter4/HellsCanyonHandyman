@@ -21,9 +21,17 @@ start <- event {
 
 The syntax uses `<-` to define events. Each event executes once its inputs are ready. There is no global state; all data flows through events.
 
+The prototype interpreter supports a `display` command for output and a simple `calc` command for arithmetic evaluation.
+
 ## Polychrome GUI
 
 NebulaX comes with Polychrome, a graphical shell where windows are arranged on translucent layers in 3‑D space. Users navigate by rotating the workspace and placing applications on different spatial planes.
+
+## Additional Components
+
+- **Quantum File Orchestrator** – a file system that stores objects by entangled identifier rather than path
+- **Event Graph Debugger** – visualizes event dependencies in real time
+- **Crystalline Security Layer** – capability-based permissions enforced by hardware keys
 
 
 ## Boot Demo

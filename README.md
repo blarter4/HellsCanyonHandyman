@@ -1,6 +1,6 @@
 # NebulaX OS Demo
 
-This repository contains a minimal bootable example of the NebulaX operating system concept. The demo is a 512-byte boot sector that simply prints a message using BIOS services. It can be run with QEMU on Windows or Linux.
+This repository contains a minimal bootable example of the **NebulaX** operating system concept. The demo is a 512-byte boot sector that simply prints a message using BIOS services. It can be run with QEMU on Windows or Linux. A project website is included via the `index.html` GitHub Pages site.
 
 ## Building
 
@@ -28,7 +28,7 @@ You should see a window displaying `NebulaX booted successfully!`.
 
 - `nebulax-os/boot.asm` – assembly source for the boot sector
 - `nebulax-os/Makefile` – build and run commands
-- `starlight.py` – prototype interpreter for the Starlight language
-- `hello.stl` – example Starlight script
+ - `starlight.py` – prototype interpreter for the Starlight language
+ - `hello.stl` – example Starlight script demonstrating display and `calc` commands
 
 The boot demo is intentionally small and does not yet implement the full NebulaX kernel concepts, but it demonstrates how the project can start from first principles.
